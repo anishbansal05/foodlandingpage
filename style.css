@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,300;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: ghostwhite;
+}
+.header{
+    color: orangered;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight:bolder;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px;
+
+}
+.header .navbar a{ 
+    color: darkgoldenrod;
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.header .navbar a:hover{
+    font-size: 30px;
+}
+.flex-container{
+    padding: 20px;
+    display: flex;
+    background-color: black;
+
+
+}
+.flex-container .content h4{
+    font-size: 50px;
+    color:cornflowerblue;
+}
+.flex-container .content h6{
+    color: #fff;
+    font-size: 30px;
+}
+.flex-container .content input{
+    margin-top: 20px;
+    padding: 5px;
+    color: darkgoldenrod;
+    background-color: black;
+ height: auto;
+ align-items: center;
+}
+.flex-container .content a{
+    color: darkgoldenrod;
+    background-color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+
+    
+}
+.flex-container .foodhub img{
+    flex-wrap: wrap;
+    float: right;
+    width: 300px;
+    height: 200px;
+    margin-left: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.footer{
+    padding-top: 10px;
+    background-color: darkgrey;
+}
+.flex-box {
+    display: flex;
+    background-color: darkgray;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.flex-box a{
+    text-decoration: none;
+    color: black;
+    padding-top: 2px;
+}
+.flex-box .cities h5{
+    font-size: 15px;
+}
+.flex-box .food h5{
+    font-size: 15px;
+}
+.social{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.social a{
+    margin-right: 50px;
+}
+
+.terms{
+    background-color: darkgrey;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
